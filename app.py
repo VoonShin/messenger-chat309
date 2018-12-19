@@ -3,7 +3,7 @@ from bottle import route, run, request, abort, static_file
 from fsm import TocMachine
 
 
-VERIFY_TOKEN = "12345667"
+VERIFY_TOKEN = "1234567890"
 machine = TocMachine(
     states=[
         'user',
